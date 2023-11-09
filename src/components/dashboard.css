@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Eagle Lake', serif;
+    font-family: 'Work Sans', sans-serif;
+    background-image: url('./img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dashboard-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 32px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-header h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.dashboard-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.dashboard-body .lone {
+    flex: 1;
+    font-size: 27px;
+    font-weight: 500;
+    margin-left: 0px;
+    padding-right: 300px;
+    color: white;
+}
+
+.dashboard-body .ltwo {
+    flex: 1;
+    font-size: 27px;
+    font-weight: 500;
+    padding-left: 280px;
+    color: white;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Eagle Lake', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+
+.btn button {
+    width: 120px;
+    height: 50px;
+    border-width: 4px;
+    border-radius: 12px;
+    border-color: crimson;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #F7EFE5;
+    color: black;
+    cursor: pointer;
+    font-family: 'Eagle Lake', serif;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.btn button:hover {
+    background-color: pink;
+    color: black;
+}
+
+.mapBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
