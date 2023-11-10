@@ -1,6 +1,6 @@
 A React Web Application to find a route between two points.
 
-# NOTE PLEASE ENTER YOUR JS MAPS API IN THE .ENV FILE OR THE MAPS WILL NOT WORK
+# NOTE - PLEASE ENTER YOUR JS MAPS API IN THE .ENV FILE OR THE MAPS WILL NOT WORK
 
 1. Clone the repo in your machine.
 2. Replace REACT_APP_GOOGLE_MAPS_KEY="Enter Your API Key Here" with your JS MAPS API
